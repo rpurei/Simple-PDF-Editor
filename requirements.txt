@@ -1,0 +1,5 @@
+PyMuPDF
+PyQt5
+qt-material
+QtAwesome
+pyinstaller

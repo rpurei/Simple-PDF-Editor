@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1025</width>
+    <height>820</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedStates"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabPDFWidget">
+      <property name="tabPosition">
+       <enum>QTabWidget::North</enum>
+      </property>
+      <property name="currentIndex">
+       <number>-1</number>
+      </property>
+      <property name="tabsClosable">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1025</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="separator"/>
+    <addaction name="actionMerge"/>
+    <addaction name="actionCompress"/>
+    <addaction name="actionMergeImages"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <widget class="QMenu" name="menuLanguage">
+     <property name="title">
+      <string>Language</string>
+     </property>
+    </widget>
+    <widget class="QMenu" name="menuTheme">
+     <property name="title">
+      <string>Theme</string>
+     </property>
+    </widget>
+    <addaction name="menuLanguage"/>
+    <addaction name="menuTheme"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionHelp"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuView"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="actionOpen">
+   <property name="text">
+    <string>&amp;Open</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>&amp;Exit</string>
+   </property>
+  </action>
+  <action name="actiondefault_en_EN">
+   <property name="text">
+    <string>default (en-EN)</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionMerge">
+   <property name="text">
+    <string>Merge PDF files</string>
+   </property>
+  </action>
+  <action name="actionCompress">
+   <property name="text">
+    <string>Compress PDF files</string>
+   </property>
+  </action>
+  <action name="actionMergeImages">
+   <property name="text">
+    <string>Merge images to PDF</string>
+   </property>
+  </action>
+  <action name="actiondefault_theme">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>default</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
