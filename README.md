@@ -52,6 +52,6 @@ Want to contribute? You are welcome, make forks, locales,
 
 ## License
 
-GPLv2
+GPLv3
 
 
