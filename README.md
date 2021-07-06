@@ -31,7 +31,7 @@ At this moment application supports locales:
 
 Simple PDF Editor uses a number of projects to work properly:
 
-- [PyMuPDF](https://github.com/pymupdf/PyMuPDF) - great libarry for modifying PDF documents
+- [PyMuPDF](https://github.com/pymupdf/PyMuPDF) - great library for modifying PDF documents
 - [PyQt5](https://www.riverbankcomputing.com/software/pyqt/) - GUI library
 - [QtAwesome](https://github.com/spyder-ide/qtawesome) - awesome icons
 - [Qt-Material](https://pypi.org/project/qt-material/) - material design look for Qt
