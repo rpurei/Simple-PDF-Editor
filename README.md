@@ -35,6 +35,7 @@ Simple PDF Editor uses a number of projects to work properly:
 - [PyQt5](https://www.riverbankcomputing.com/software/pyqt/) - GUI library
 - [QtAwesome](https://github.com/spyder-ide/qtawesome) - awesome icons
 - [Qt-Material](https://pypi.org/project/qt-material/) - material design look for Qt
+- [Ghostscript](https://www.ghostscript.com/) - for compressing PDF files
 
 ## Installation
 
